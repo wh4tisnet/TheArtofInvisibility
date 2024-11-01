@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El arte de la invisibilidad</title>
+    <link rel="icon" type="image/x-icon" href="https://dims.apnews.com/dims4/default/534b581/2147483647/strip/true/crop/6000x4000+0+0/resize/1440x960!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fd5%2F02%2F7245ffcc9ecae07f02aa5dafbfec%2F0ede7ccd444a46ecbd369f9e3c296a07">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        .contenedor {
+            display: flex;
+            max-width: 1200px;
+            margin: 0;
+            width: 100%;
+        }
+
+        header {
+            background: linear-gradient(90deg, #00b327, #021b08);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            flex: 0 0 300px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+            margin-right: 20px;
+        }
+
+        nav {
+            background-color: #fff;
+            width: 250px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            height: auto;
+            position: sticky;
+            top: 0;
+            transition: transform 0.3s ease;
+            margin-right: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 15px 0;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #00b327;
+            font-weight: bold;
+            padding: 12px 15px;
+            display: block;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s, transform 0.3s;
+            border: 2px solid transparent;
+            cursor: pointer;
+        }
+
+        nav ul li a:hover {
+            background-color: rgba(0, 86, 179, 0.1);
+            color: #00b327;
+            border-color: #00b327;
+            transform: scale(1.05);
+        }
+
+        nav ul li a:active {
+            background-color: rgba(0, 179, 39, 0.3);
+            transform: scale(0.95);
+        }
+
+        .contenido-principal {
+            flex: 1;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            margin: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+            height: auto;
+        }
+
+        h2 {
+            color: #00b327;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contenedor">
+        <header>
+            <h1>Resumen de los capítulos</h1>
+        </header>
+        <nav>
+            <ul id="capitulos">
+                <li><a href="Prologo.html">Prólogo</a></li>
+                <li><a href="Capitulo 1.html">Capítulo 1</a></li>
+                <li><a href="Capitulo 2.html">Capítulo 2</a></li>
+                <li><a href="Capitulo 3.html">Capítulo 3</a></li>
+                <li><a href="Capitulo 4.html">Capítulo 4</a></li>
+                <li><a href="Capitulo 5.html">Capítulo 5</a></li>
+                <li><a href="Capitulo 6.html">Capítulo 6</a></li>
+                <li><a href="Capitulo 7.html">Capítulo 7</a></li>
+                <li><a href="Capitulo 8.html">Capítulo 8</a></li>
+                <li><a href="Capitulo 9.html">Capítulo 9</a></li>
+                <li><a href="Capitulo 10.html">Capítulo 10</a></li>
+                <li><a href="Capitulo 11.html">Capítulo 11</a></li>
+                <li><a href="Capitulo 12.html">Capítulo 12</a></li>
+                <li><a href="Capitulo 13.html">Capítulo 13</a></li>
+                <li><a href="Capitulo 14.html">Capítulo 14</a></li>
+                <li><a href="Capitulo 15.html">Capítulo 15</a></li>
+                <li><a href="Capitulo 16.html">Capítulo 16</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <script>
+        document.querySelectorAll('nav ul li a').forEach((enlace) => {
+            enlace.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = this.getAttribute('href');
+                if (target.startsWith("#")) {
+                    document.querySelector(target).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                } else {
+                    window.location.href = target;
+                }
+            });
+        });
+    </script>
+</body>
+</html>

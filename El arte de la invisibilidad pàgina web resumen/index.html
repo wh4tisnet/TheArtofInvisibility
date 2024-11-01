@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El arte de la invisibilidad</title>
+    <link rel="icon" type="image/x-icon" href="https://dims.apnews.com/dims4/default/534b581/2147483647/strip/true/crop/6000x4000+0+0/resize/1440x960!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fd5%2F02%2F7245ffcc9ecae07f02aa5dafbfec%2F0ede7ccd444a46ecbd369f9e3c296a07">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffffff;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header { 
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background-color: #fff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            font-size: 80px;
+            font-weight: bold;
+            color: #28a745; 
+            font-family: 'Arial', sans-serif;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .logo:hover {
+            transform: scale(1.1);
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #28a745;
+        }
+
+        .heroe {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 80px;
+            background-color: #fff;
+        }
+
+        .contenido-texto {
+            max-width: 45%;
+        }
+
+        .contenido-texto h1 {
+            font-size: 56px;
+            color: #000;
+            margin-bottom: 20px;
+        }
+
+        .contenido-texto p {
+            font-size: 24px;
+            color: #a77c65;
+            margin-bottom: 30px;
+        }
+
+        .botones {
+            display: flex;
+            gap: 20px;
+        }
+
+        .btn {
+            background-color: #28a745;
+            color: #fff;
+            padding: 15px 35px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            box-shadow: 0 6px 15px rgba(255, 107, 97, 0.3);
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #218838;
+            box-shadow: 0 8px 20px rgba(40, 167, 69, 0.5);
+        }
+
+        .btn.secundario {
+            background-color: #fff;
+            color: #28a745;
+            border: 2px solid #28a745;
+        }
+
+        .btn.secundario:hover {
+            background-color: #f7f7f7;
+        }
+
+        .contenido-imagen img {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            transform: scale(1);
+            transition: transform 0.3s ease;
+        }
+
+        .contenido-imagen img:hover {
+            transform: scale(1.05);
+        }
+
+        @media screen and (max-width: 1024px) {
+            .heroe {
+                padding: 60px;
+            }
+
+            .contenido-texto h1 {
+                font-size: 48px;
+            }
+
+            .contenido-texto p {
+                font-size: 22px;
+            }
+
+            .btn {
+                padding: 12px 30px;
+                font-size: 16px;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .heroe {
+                flex-direction: column;
+                text-align: center;
+                padding: 50px 30px;
+            }
+
+            .contenido-texto {
+                max-width: 100%;
+                margin-bottom: 30px;
+            }
+
+            .contenido-imagen img {
+                max-width: 80%;
+                margin: 0 auto;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .heroe h1 {
+                font-size: 36px;
+            }
+
+            .heroe p {
+                font-size: 18px;
+            }
+
+            .btn {
+                padding: 12px 20px;
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">El arte de la invisibilidad</div>
+        <nav>
+            <ul>
+                <li><a href="Resumen de capitulos.html">Capítulos</a></li>
+                <li><a href="Kevin.html">Kevin Mitnick</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="heroe">
+            <div class="contenido-texto">
+                <h1>Kevin Mitnick</h1>
+                <p>El arte de la invisibilidad de Kevin Mitnick es un libro que trata de sobre cómo proteger tu privacidad en el mundo digital.</p>
+                <div class="botones">
+                    <a href="https://guns.lol/abel21" class="btn">Mis redes sociales</a>
+                    <a href="https://pdfcoffee.com/el-arte-de-la-invisibilidad-3-pdf-free.html" class="btn secundario">Donde puedo descargar el libro?</a>
+                </div>
+            </div>
+            <div class="contenido-imagen">
+                <img src="https://panamericana.vtexassets.com/arquivos/ids/475270/el-arte-de-la-invisibilidad-2-9788441540613.jpg?v=638090375581600000" alt="El arte de la invisibilidad">
+            </div>
+        </section>
+    </main>
+</body>
+</html>

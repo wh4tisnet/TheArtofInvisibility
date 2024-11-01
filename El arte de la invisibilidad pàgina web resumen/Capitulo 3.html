@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El arte de la invisibilidad</title>
+    <link rel="icon" type="image/x-icon" href="https://dims.apnews.com/dims4/default/534b581/2147483647/strip/true/crop/6000x4000+0+0/resize/1440x960!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fd5%2F02%2F7245ffcc9ecae07f02aa5dafbfec%2F0ede7ccd444a46ecbd369f9e3c296a07">
+    <style>
+        body {
+            background-color: #ffffff;
+            color: #444;
+            font-family: "Arial", sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: auto;
+            overflow-y: auto;
+            text-align: center;
+            position: relative;
+            padding-bottom: 50px;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 0.5em;
+            color: #2e7d32;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+        }
+        h1:hover {
+            color: #1b5e20;
+            transform: scale(1.05); 
+            transition: color 0.3s, transform 0.3s; 
+        }
+        h2 {
+            font-size: 2em;
+            margin-bottom: 1em;
+            color: #555;
+        }
+        .resumen {
+            background-color: #f0f8f0;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            overflow-y: auto;
+            max-height: 70vh;
+            border: 1px solid #2e7d32;
+            margin-bottom: 30px;
+        }
+        p {
+            line-height: 1.6;
+            font-size: 1.1em;
+            margin: 0;
+            color: #333;
+            text-align: justify;
+        }
+        .navegacion {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+            padding: 0 40px;
+        }
+        .nav-button {
+            background-color: transparent;
+            border: none;
+            color: #2e7d32;
+            font-size: 2em;
+            cursor: pointer;
+            transition: color 0.3s, transform 0.2s;
+        }
+        .nav-button:hover {
+            color: #1b5e20;
+            transform: scale(1.2);
+        }
+        .link {
+            margin-top: 20px;
+            font-size: 1.2em;
+            color: #2e7d32;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        .link:hover {
+            color: #1b5e20;
+        }
+    </style>
+</head>
+<body>
+    <div class="navegacion">
+        <button class="nav-button" onclick="window.location.href='Capitulo 2.html'">
+            ◀️
+        </button>
+        <button class="nav-button" onclick="window.location.href='Capitulo 4.html'">
+            ▶️
+        </button>
+    </div>
+    <h1>El arte de la invisibilidad</h1>
+    <p><h2>Capítulo 3: Wiretapping 101 </h2>
+    <div class="resumen">
+        <p>El tercer capítulo habla de que en nuestra sociedad estamos a toda hora con el móvil, este capítulo explica como todos los móviles están conectados entre si, mediante torres que lo que hacen es compartir señal. Luego explica que para proteger nuestra identidad de nuestro móvil se hace mediante el IMSI que es el número que tiene la tarjeta SIM del móvil. De lo que habla después es de cuando usas tu teléfono, este se conecta a la torre de movil más cercana, lo que permite que tus llamadas y datos se manejen sin problemas. Luego añade de que cada teléfono tiene su propia señal, la cual queda almacenada. Así las autoridades pueden tener acceso a información sobre el desplazamiento en relación con los usuarios, añade que el registro de la señal de una sola torre puede mostrar que un dispositivo estaba en ese momento cerca de esta, pero el manejo de las señales de varias torres permite realizar triangulaciones exactas de la geolocalización de un usuario, lo que permite saber que hace en cada momento. Luego de lo que habla de al firmar un contrato con un proveedor de servicios móviles, se requiere proporcionar datos personales, como tu nombre y número... lo que aumenta tu vulnerabilidad a saber dónde estas a cada momento y tu información personal. Lo que se habla en este capítulo de que una alternativa más discreta es utilizar un teléfono de prepago ya que en este es más difícil de que te rastren. Lo que pasa es que es importante tener en cuenta que, aunque estos dispositivos tengan un nivel de privacidad, no garantiza que seas anónimo. Dice que la policía puede rastrear el IMSI de tu móvil de prepago, y los patrones de llamadas pueden revelar conexiones importantes para saber donde estas. Luego da el caso de Pat Barbaro, un narcotraficante que utilizó varios teléfonos de prepago en un intento de ocultar su identidad. Pero al final la policía logro rastrear sus comunicaciones a través de patrones de uso. También menciona el protocolo SS7, que este es clave para la conexión de las llamadas, el cual puede ser aprovechado por un atacante para interceptar y manipular las llamadas incluso a través del pequeño operador de telecomunicaciones. Además también aborda el tema PFS este es un sistema que usa una encriptación ligeramente diferente tono para cada llamada.</p>
+    </div>
+    <a class="link" href="index.html">Volver a la página principal</a>
+</body>
+</html>
