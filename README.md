@@ -1,8 +1,8 @@
-#Página Web sobre un Libro de Kevin Mitnick
+# Página Web sobre un Libro de Kevin Mitnick
 
 Este proyecto consiste en una página web dedicada a explorar y analizar un libro escrito por **Kevin Mitnick**, uno de los hackers más conocidos del mundo. El propósito de este código es proporcionar una experiencia interactiva y visualmente atractiva que permita a los usuarios aprender más sobre el contenido del libro y el autor.
 
-🚀 Funcionalidades
+# 🚀 Funcionalidades
 
 - Información sobre el libro: Una descripción detallada del libro, incluyendo temas principales y su relevancia en el mundo de la ciberseguridad.
 - Sección sobre Kevin Mitnick: Información biográfica y los logros más destacados de este icónico hacker.
@@ -26,9 +26,9 @@ Este proyecto está desarrollado utilizando las siguientes tecnologías:
 Realmente la cree para un proyecto voluntarió.
 
 
-👨‍💻 Cómo ejecutar descargar el proyecto
 
-1. Clona este repositorio: 
+
+# Clona este repositorio: 
    ```bash
    git clone https://github.com/SACMM/El-arte-de-la-invisibilidad
    ```
