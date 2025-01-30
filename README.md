@@ -1,4 +1,4 @@
-# Página Web sobre un Libro de Kevin Mitnick
+# Página Web sobre un libro de Kevin Mitnick
 
 Este proyecto consiste en una página web dedicada a explorar y analizar un libro escrito por **Kevin Mitnick**, uno de los hackers más conocidos del mundo. El propósito de este código es proporcionar una experiencia interactiva y visualmente atractiva que permita a los usuarios aprender más sobre el contenido del libro y el autor.
 
