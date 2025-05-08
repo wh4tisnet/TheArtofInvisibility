@@ -1,34 +1,26 @@
-# Página Web sobre un libro de Kevin Mitnick
+Web Page About a Book by Kevin Mitnick
 
-Este proyecto consiste en una página web dedicada a explorar y analizar un libro escrito por **Kevin Mitnick**, uno de los hackers más conocidos del mundo. El propósito de este código es proporcionar una experiencia interactiva y visualmente atractiva que permita a los usuarios aprender más sobre el contenido del libro y el autor.
+This project consists of a web page dedicated to exploring and analyzing a book written by Kevin Mitnick, one of the most well-known hackers in the world. The purpose of this code is to provide an interactive and visually appealing experience that allows users to learn more about the book's content and the author.
 
-# 🚀 Funcionalidades
+# 🚀 Features
 
-- Información sobre el libro: Una descripción detallada del libro, incluyendo temas principales y su relevancia en el mundo de la ciberseguridad.
-- Sección sobre Kevin Mitnick: Información biográfica y los logros más destacados de este icónico hacker.
-- Interfaz moderna: Uso de tecnologías web para ofrecer una experiencia de usuario fluida y atractiva.
-- Enlaces adicionales: Recursos relacionados con la ciberseguridad y otras obras del autor.
+- Book Information: A detailed description of the book, including its main themes and relevance in the world of cybersecurity.
+- Section on Kevin Mitnick: Biographical information and the most notable achievements of this iconic hacker.
+- Modern Interface: Utilizes web technologies to offer a smooth and attractive user experience.
+- Additional Links: Resources related to cybersecurity and other works by the author.
 
-🛠️ Tecnologías Utilizadas
+🛠️ Technologies Used
 
-Este proyecto está desarrollado utilizando las siguientes tecnologías:
+This project was developed using the following technologies:
 
-- HTML5 y CSS3: Para la estructura y el diseño visual de la página.
-- JavaScript: Para añadir interactividad y funcionalidades dinámicas.
+- HTML5 and CSS3: For the structure and visual design of the page.
+- HTML5 and CSS3: For the structure and visual design of the page.
 
-📚 Contenido del Repositorio
+📚 Repository Contents
 
-- `/index.html`: Archivo principal que estructura la página web, este es el fichero principal descarga todos los anteriores para que se vea correctamente.
+- `/index.html`: Main file that structures the web page, this is the primary file that loads all others correctly.
 
-
-🧐 ¿Por qué cree esta página?
-
-Realmente la cree para un proyecto voluntarió.
-
-
-
-
-# Clona este repositorio: 
+# Clone this repository:
    ```bash
-   git clone https://github.com/SACMM/El-arte-de-la-invisibilidad
+   git clone https://github.com/wh4tisnet/TheArtofInvisibility
    ```
